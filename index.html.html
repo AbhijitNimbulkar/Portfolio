@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijit Nimbulkar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>       
+            <ul>
+                <div class="time">
+                <i class="fa-regular fa-clock"></i>
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                </div>
+                <i class="fa-solid fa-house"></i>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contactform">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        
+        <div class="intro">
+            <div class="myself">
+             <h2>Hello I am Abhijit Nimbulkar !</h2>
+                <span>A software Developer & Data Analyst</span><br>
+                <span id="button">
+                <button class="bt" onclick="downloadfile()">MY CV</button>
+                <button class="bt" onclick="downloadcover()">MY CoverLetter</button>
+                </span><br>
+                <span>
+                 <a href="https://github.com/AbhijitNimbulkar"> <i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abhijitnimbulkar"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/abhi__nimbulkar"><i class="fa-brands fa-instagram"></i></a>
+                    
+                </span>
+            </div>
+               
+            
+            <span>
+             <img src="Abhi_img1.png" class="card-img-top" alt="...">
+            </span>
+
+        </div>
+    </section>
+    
+
+    <section id="about">
+        <h2>About Me</h2>
+        <span>My Full Name is Abhijit Pramod Nimbulkar. I am From Wani, Yavatmal. state-Maharastra I have done my SSC from Macaroon Students Academy wani
+             with 7.8 CGPA. Done My HSC from Lions English Medium School Wani with 63 %. done my diploma in electrical Engineering in Government 
+             polytechnic Gadchiroli. And completed my graduation from Dr. Babasaheb Ambedkar Technolocical Unversity Lonere. 
+             my hobby is to play chess, cricket, badminton.I love to visit new places for a tour.my short term goal is to get a job in reputed company in a desired position.
+             my long term goal is to get higher level in that position. my strengths are I can work under pressure and handle it camly. my 
+             weekness is I trust people easily and cant say no to things most of the time.My favorite quote is "If Smart work didnt do hard work, hard work can beat smart work."
+            </span>
+    </section>
+
+    <section class="container">
+        <h1>My Projects</h1>
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide1" src="mouse.png">
+                <img id="slide2" src="iot1.jpg"/>
+                <img id="slide3" src="lib.jpg"/>
+            </div>
+            <div class="slider-nav">
+                <a href="#slide1"></a>
+                <a href="#slide2"></a>
+                <a href="#slide3"></a>
+
+            </div>
+        </div>
+    </section>
+   
+
+    <section id="project">
+        <div class="project">
+            <h3>Data Analysis with Python</h3>
+            <p>Exploratory Data Analysis (EDA) is an approach to analyzing datasets to summarize their main characteristics, often with visual methods. Here are the key steps typically involved in EDA:
+
+                Understand the Dataset:
+                
+                Load the dataset and understand its structure (rows, columns, data types).
+                Check for missing values and handle them appropriately.
+                Summarize the Data:
+                
+                Use descriptive statistics (mean, median, mode, standard deviation, etc.) to get a basic understanding of the data.
+                Generate summaries for both numerical and categorical data.
+                Visualize the Data:
+                <span class="content">
+                Create various plots to visualize the distribution and relationships in the data. Common plots include:
+                Histograms
+                Box plots
+                Bar charts
+                Scatter plots
+                Pair plots
+                Use heatmaps to visualize correlations between features.
+                Identify Patterns and Anomalies:
+                
+                Look for patterns, trends, and correlations in the data.
+                Identify and investigate anomalies or outliers that might affect the analysis.
+                Feature Engineering:
+                
+                Create new features from the existing data to help improve the performance of machine learning models.
+                Transform and scale features as needed.</span></p>
+                <span class="read-more-btn">Read more...</span><br><br>
+            <a href="https://github.com/AbhijitNimbulkar/EDA">View Project</a>
+            
+        </div>
+        <div class="projects">
+            <h3>Mouse Control Using Hand Gesture with DIP</h3>
+            <p>The objective of this project is to create a system that allows a user to control 
+                the mouse on their computer using hand gestures. This includes moving the cursor, clicking, scrolling, dragging,
+                zooming, and other common actions performed with a mouse. The system uses a webcam to capture hand gestures and 
+                the Mediapipe library for hand landmark detection.
+                <span class="content">
+                Technology Used OpenCV contains techniques for processing images that detect objects.
+                 MediaPipe MediaPipe is a Google open-source framework that is applied in a machine learning pipeline.
+                  PyAutoGUI Allows users to imitate keyboard button pushes as well as mouse cursor movements and clicks. 
+                  PyMath The Python math module gives you the possibility to perform common and useful mathematical operations within 
+                  your program.
+                
+                Python will be used for implementing the core logic of the virtual mouse system, including image processing,
+                 gesture recognition, and real-time processing. Its extensive libraries and community support make it suitable for integrating 
+                 different components of the system efficiently.
+                
+                Future Scope
+                
+                Advanced Gesture Recognition Techniques Enhanced User Interface and Interaction Accessibility and
+                Customization Mobile and IoT Integration.</span></p>
+                <span class="read-more-btn">Read more...</span><br><br>
+            <a href="https://github.com/AbhijitNimbulkar/mouse_control_using_hand_with_DIP/blob/main/mouse_control_using_hand_gesture_with_dip.py">View Projects</a>
+        </div>
+    
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+    <div class="card-group">
+        <div class="card">
+          <img src="EDA1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Exploratory Data Analysis</h5>
+            <p class="card-text">Exploratory Data Analysis (EDA) is an approach to analyzing datasets to summarize their main characteristics, often with visual methods. Here are the key steps typically involved in EDA:
+
+                Understand the Dataset:
+                
+                Load the dataset and understand its structure (rows, columns, data types).
+                Check for missing values and handle them appropriately.
+                Summarize the Data:
+                
+                Use descriptive statistics (mean, median, mode, standard deviation, etc.) to get a basic understanding of the data.
+                Generate summaries for both numerical and categorical data.
+                Visualize the Data:
+                </p>
+                <a href="https://github.com/AbhijitNimbulkar/mouse_control_using_hand_with_DIP/blob/main/mouse_control_using_hand_gesture_with_dip.py">View Project</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="cloud-computing2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cloud Computing</h5>
+            <p class="card-text">Cloud computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. Instead of owning their own computing infrastructure or data centers, companies can rent access to 
+                anything from applications to storage from a cloud service provider like AWS.
+                Amazon Web Services (AWS) is a comprehensive and widely adopted cloud platform, offering over 200 fully-featured services from data centers globally. AWS is used by millions of customers, including startups, large enterprises,
+                 and leading government agencies, to reduce costs, become more agile, and innovate faster.
+            </p>
+            <a href="">View Project</a>
+          </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="wrapper">
+            <span><h1>Technical Skills</h1>
+                <span class="column">Python</span>
+                <span class="column">core Java</span>
+                <span class="column">JavaScript</span>
+                <span class="column">CSS3</span>
+                <span class="column">HTML5</span>
+                <span class="column">Microsoft Excel</span>
+                <span class="column">PowerBI</span>
+                <span class="column">juypter Notebook</span>
+            </span>
+           
+                <span><h1>Frameworks</h1>
+                    <span class="column">Pandas</span>
+                    <span class="column">NumPy</span>
+                    <span class="column">Seaborn</span>
+                    <span class="column">Matplotlib</span>
+                    <span class="column">Sikit-learn</span>
+                    <span class="column">Flask</span>
+                </span>
+
+               
+                    <span><h1>Soft Skills</h1>
+                        <span class="column">Communication</span>
+                        <span class="column">Team work</span>
+                        <span class="column">Problem Solving</span>
+                        <span class="column">Critical Thinking</span>
+                        <span class="column">Logicl Thinking</span>
+                        <span class="column">Attentain to Detail</span>
+                    </span>
+        </div>
+            </section>
+
+
+    
+    
+
+            <div id="contactform">
+                <form>
+                    <div class="ct">
+                <div class="box">
+                    <h3>contact me </h3>
+                    <div class="name">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Name" id="name">
+                    </div>
+                    <div class="email">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Email" id="email">
+                    </div>
+                    <div class="message-box">
+                        <textarea id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="button">
+                        <button id="send" onclick="message()">Send</button>
+                    </div>
+                    <div class="message">
+                        <div class="success" id="success">Your Message Successfully Sent!</div>
+                        <div class="danger" id="danger">Feilds Can't be Empty!</div>
+                    </div>    
+                </div>
+                    </div>
+                </form>
+            </div>
+        
+
+
+   
+
+    <footer>
+        <div id="wrappers">
+       
+       <span><a href="#home">Home</a></span>
+        <span><a href="#about">About</a></span>
+        <span><a href="#project">Projects</a></span>
+        <span><a href="#experience">Experience</a></span>
+        <span><a href="#contactForm">Contact Me</a></span>
+    
+        </div>
+    
+    <p>&copy; 2024 Abhijit Nimbulkar. All rights reserved.</p>
+    <a href="https://instagram.com/abhi__nimbulkar"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://github.com/AbhijitNimbulkar"> <i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/abhijitnimbulkar"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://nimbulkarabhi3@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
