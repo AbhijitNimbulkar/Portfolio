@@ -1,0 +1,85 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+#education
+
+.badge.rounded-pill {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+  }
+
+  
+  #project
+
+  /* Overall card container row */
+.row {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+  
+  /* Individual card */
+  .card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card image */
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Card body */
+  .card-body {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* Title and text */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  #experience
+
+  .full-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    display: block;
+  }
+  
+  .full-text.expanded {
+    max-height: 500px; /* Adjust based on content length */
+  }
+  
+  .read-toggle {
+    color: #007bff;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+    border: none;
+    background: none;
+    padding: 0;
+  }
+  
+  
